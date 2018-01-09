@@ -1,0 +1,23 @@
+{
+	"commentStamp" : "",
+	"super" : "BittrexObject",
+	"category" : "Bittrex",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"MarketName",
+		"MarketCurrency",
+		"BaseCurrency",
+		"MarketCurrencyLong",
+		"BaseCurrencyLong",
+		"MinTradeSize",
+		"IsActive",
+		"Created",
+		"Notice",
+		"IsSponsored",
+		"LogoUrl"
+	],
+	"name" : "BittrexMarket",
+	"type" : "normal"
+}

@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "BittrexResultArray",
+	"category" : "Bittrex",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "BittrexCurrencies",
+	"type" : "normal"
+}

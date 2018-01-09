@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "BenComan 1/9/2018 20:56",
+	"super" : "BittrexPrivateAPI",
+	"category" : "Bittrex",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "BittrexBuyLimit",
+	"type" : "normal"
+}

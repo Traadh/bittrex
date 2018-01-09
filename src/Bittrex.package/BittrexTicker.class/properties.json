@@ -1,0 +1,15 @@
+{
+	"commentStamp" : "",
+	"super" : "BittrexObject",
+	"category" : "Bittrex",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"Bid",
+		"Ask",
+		"Last"
+	],
+	"name" : "BittrexTicker",
+	"type" : "normal"
+}

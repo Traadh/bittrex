@@ -1,0 +1,3 @@
+accessing
+marketCurrencyLong
+	^ MarketCurrencyLong

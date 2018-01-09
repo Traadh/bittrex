@@ -1,0 +1,29 @@
+{
+	"commentStamp" : "",
+	"super" : "BittrexObject",
+	"category" : "Bittrex",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"Uuid",
+		"OrderUuid",
+		"Exchange",
+		"OrderType",
+		"Quantity",
+		"QuantityRemaining",
+		"Limit",
+		"CommissionPaid",
+		"Price",
+		"PricePerUnit",
+		"Opened",
+		"Closed",
+		"CancelInitiated",
+		"ImmediateOrCancel",
+		"IsConditional",
+		"Condition",
+		"ConditionTarget"
+	],
+	"name" : "BittrexOpenOrder",
+	"type" : "normal"
+}

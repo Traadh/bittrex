@@ -1,0 +1,19 @@
+{
+	"commentStamp" : "",
+	"super" : "BittrexObject",
+	"category" : "Bittrex",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"Id",
+		"TimeStamp",
+		"Quantity",
+		"Price",
+		"Total",
+		"FillType",
+		"OrderType"
+	],
+	"name" : "BittrexTrade",
+	"type" : "normal"
+}

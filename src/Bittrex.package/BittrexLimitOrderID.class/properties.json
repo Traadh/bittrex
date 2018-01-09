@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "",
+	"super" : "BittrexObject",
+	"category" : "Bittrex",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"uuid"
+	],
+	"name" : "BittrexLimitOrderID",
+	"type" : "normal"
+}

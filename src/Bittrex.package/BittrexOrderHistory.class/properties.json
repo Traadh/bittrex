@@ -1,0 +1,26 @@
+{
+	"commentStamp" : "",
+	"super" : "BittrexObject",
+	"category" : "Bittrex",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"OrderUuid",
+		"Exchange",
+		"TimeStamp",
+		"OrderType",
+		"Limit",
+		"Quantity",
+		"QuantityRemaining",
+		"Commission",
+		"Price",
+		"PricePerUnit",
+		"IsConditional",
+		"Condition",
+		"ConditionTarget",
+		"ImmediateOrCancel"
+	],
+	"name" : "BittrexOrderHistory",
+	"type" : "normal"
+}

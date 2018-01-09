@@ -1,0 +1,3 @@
+calculated
+price
+	^ Price

@@ -1,0 +1,22 @@
+{
+	"commentStamp" : "BenComan 1/9/2018 21:14",
+	"super" : "Object",
+	"category" : "Bittrex",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [
+		"ApiKey",
+		"ApiSecret",
+		"ClientPool"
+	],
+	"instvars" : [
+		"client",
+		"rawResponse",
+		"jsonResponse",
+		"success",
+		"message",
+		"result"
+	],
+	"name" : "BittrexAPI",
+	"type" : "normal"
+}

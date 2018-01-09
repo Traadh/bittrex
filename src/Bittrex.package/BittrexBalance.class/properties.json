@@ -1,0 +1,17 @@
+{
+	"commentStamp" : "",
+	"super" : "BittrexObject",
+	"category" : "Bittrex",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"Currency",
+		"Balance",
+		"Available",
+		"Pending",
+		"CryptoAddress"
+	],
+	"name" : "BittrexBalance",
+	"type" : "normal"
+}

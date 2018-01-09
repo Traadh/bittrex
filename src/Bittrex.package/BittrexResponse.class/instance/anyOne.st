@@ -1,0 +1,3 @@
+accessing
+anyOne
+	^result anyOne

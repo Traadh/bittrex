@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "BenComan 1/9/2018 20:40",
+	"super" : "BittrexPublicAPI",
+	"category" : "Bittrex",
+	"classinstvars" : [
+		"sample"
+	],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "BittrexGetMarkets",
+	"type" : "normal"
+}

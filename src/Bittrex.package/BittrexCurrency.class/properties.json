@@ -1,0 +1,20 @@
+{
+	"commentStamp" : "",
+	"super" : "BittrexObject",
+	"category" : "Bittrex",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"Currency",
+		"CurrencyLong",
+		"MinConfirmation",
+		"TxFee",
+		"IsActive",
+		"CoinType",
+		"BaseAddress",
+		"Notice"
+	],
+	"name" : "BittrexCurrency",
+	"type" : "normal"
+}

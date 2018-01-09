@@ -1,0 +1,3 @@
+display
+gtInspectorResultDisplay
+	^ self 

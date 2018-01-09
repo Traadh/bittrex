@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "BenComan 1/9/2018 20:40",
+	"super" : "BittrexPublicAPI",
+	"category" : "Bittrex",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "BittrexGetOrderBook",
+	"type" : "normal"
+}

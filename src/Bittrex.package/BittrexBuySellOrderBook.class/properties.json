@@ -1,0 +1,14 @@
+{
+	"commentStamp" : "",
+	"super" : "BittrexObject",
+	"category" : "Bittrex",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"buy",
+		"sell"
+	],
+	"name" : "BittrexBuySellOrderBook",
+	"type" : "normal"
+}

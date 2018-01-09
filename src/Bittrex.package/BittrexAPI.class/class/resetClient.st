@@ -1,0 +1,3 @@
+accessing
+resetClient
+	ClientPool := nil.

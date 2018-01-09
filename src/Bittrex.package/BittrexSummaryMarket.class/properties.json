@@ -1,0 +1,26 @@
+{
+	"commentStamp" : "",
+	"super" : "BittrexObject",
+	"category" : "Bittrex",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"MarketName",
+		"High",
+		"Low",
+		"Volume",
+		"Last",
+		"BaseVolume",
+		"TimeStamp",
+		"Bid",
+		"Ask",
+		"OpenBuyOrders",
+		"OpenSellOrders",
+		"PrevDay",
+		"Created",
+		"DisplayMarketName"
+	],
+	"name" : "BittrexSummaryMarket",
+	"type" : "normal"
+}
