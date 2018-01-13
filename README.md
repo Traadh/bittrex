@@ -1,4 +1,4 @@
-# An interface to the Bittrex REST API for Smalltalk (initially Pharo).
+# A Pharo/Smalltalk interface to the Bittrex API.
 
 The Bittrex API interface is implemented as a Command Pattern, a class per entrypoint.
 
