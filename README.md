@@ -15,6 +15,10 @@ A Baseline has not yet been defined, so evaluate... <p>
 ```smalltalk
    BittrexAPI installNeoJSON
 ```
+<p>
+4. Run BittrexLibsodiumTests.
+
+Okay, done! You should be right to go.
 
 ## Usage - public apis
 Try the BittrexPublicAPIs first since they work out of the box without any configuration at Bittrex.com, e.g...<p>
