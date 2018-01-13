@@ -47,3 +47,4 @@ Check your system is correctly configured by evaluating... <p>
 ```smalltalk
    BittrexAPI configureCheckKeys
 ```
+  
