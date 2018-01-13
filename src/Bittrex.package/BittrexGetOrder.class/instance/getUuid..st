@@ -11,4 +11,4 @@ getUuid: aUuid
 	self path: 'api/v1.1/account/getorder'.
 	self queryAt: 'uuid' put: aUuid.
 	self signRequest.
-	^ BittrexResponse parse: self get resultAs: BittrexOrder
+	^ (BittrexResponse parse: self get resultAs: BittrexOrder) result

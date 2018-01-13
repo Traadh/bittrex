@@ -4,4 +4,4 @@ getAll
 
 	self path: 'api/v1.1/account/getorderhistory'.
 	self signRequest.
-	^ BittrexResponse parse: self get resultAs: BittrexOrderHistories
+	^ (BittrexResponse parse: self get resultAs: BittrexOrderHistories) result
