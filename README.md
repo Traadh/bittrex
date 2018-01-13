@@ -11,12 +11,16 @@ The API has been implemented as a Command Pattern, a class per entrypoint.
 ![Iceberg load package](https://github.com/Traadh/bittrex/blob/master/doc/iceberg-load-package.png?raw=true)
 
 3. Install dependencies <p>
-A Baseline has not yet been defined, so evaluate... <br>
-```    BittrexAPI installNeoJSON```
+A Baseline has not yet been defined, so evaluate... <p>
+```smalltalk
+   BittrexAPI installNeoJSON
+```
 
 ## Usage - public APIs
-Try the BittrexPublicAPIs first since they work out of the box without any configuration at Bittrex.com, e.g...
-```    BittrexGetMarkets new getAll inspect ``` <p>
+Try the BittrexPublicAPIs first since they work out of the box without any configuration at Bittrex.com, e.g...<p>
+```smalltalk
+   BittrexGetMarkets new getAll inspect
+```
 ![a BittrexMarket](https://github.com/Traadh/bittrex/blob/master/doc/BittrexMarket-inspector.png?raw=true)
 
 To try the BittrexPrivateAPIs, at the Bittrex.com > Settings > API Keys,
@@ -24,19 +28,24 @@ create a new paired ApiKey and ApiSecret. <br>
   e.g. ApiKey 3af36a54c1ac33ac35910a80fb5a2074 <br>
   e.g. ApiSecret 5234ca802140d0f8a8485bdd2fe81598 <br>
 
-Create a file (e.g. secret.txt) with lines having 
-the first six digits of ApiKey bracketed and appended with ApiSecret.
+Create a file (e.g. secret.txt) with lines having the first six digits of ApiKey bracketed and appended with ApiSecret. <br>
   e.g. (3af36a)5234ca802140d0f8a8485bdd2fe81598
 
-In Pharo, evaluate...
-  apiKey := '3af36a54c1ac33ac35910a80fb5a2074'. 
-  BittrexAPI configureApiKey: apiKey secretFromFile: 'secret.txt'.
+Configure these keys in Pharo by evaluating...<p>
+```smalltalk
+   apiKey := '3af36a54c1ac33ac35910a80fb5a2074'. 
+   BittrexAPI configureApiKey: apiKey secretFromFile: 'secret.txt'.
+```
   
-The aim of this approach is to avoid leaking the secret through a saved Image.
-The secret is stored in volatile memory which is nilled when the Image/VM quit.
+The aim of this approach is to avoid leaking the secret through a saved Image. <br>
+The secret is stored only in volatile memory which is nilled when the Image/VM quit.<br>
+The address of this volatile memory is passed directly to the FFI signing function
+without the secret touching the Image heap.
 
-Check your system is correctly configured by evaluating... 
-  BittrexAPI configureCheckKeys
+Check your system is correctly configured by evaluating... <p>
+```smalltalk
+   BittrexAPI configureCheckKeys
+```
   
   
 P.S. I'm new to Iceberg so advice welcome on improving the git workflow.
