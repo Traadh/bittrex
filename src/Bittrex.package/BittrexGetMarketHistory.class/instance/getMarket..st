@@ -1,7 +1,7 @@
 actions api
-getMarket: aBittrexMarket
-	"(BittrexGetMarketHistory new getMarket: BittrexGetMarkets anySample) inspect"
+getMarket: aBittrexMarketName
+	"(BittrexGetMarketHistory new getMarket: BittrexGetMarkets anySampleName) inspect"
 
 	self path: 'api/v1.1/public/getmarkethistory'.
-	self queryAt: 'market' put: aBittrexMarket.
+	self queryAt: 'market' put: aBittrexMarketName.
 	^ (BittrexResponse parse: self get resultAs: BittrexMarketHistory) result
