@@ -47,6 +47,3 @@ Check your system is correctly configured by evaluating... <p>
 ```smalltalk
    BittrexAPI configureCheckKeys
 ```
-  
-  
-P.S. I'm new to Iceberg so advice welcome on improving the git workflow.
