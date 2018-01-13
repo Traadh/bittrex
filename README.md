@@ -1,6 +1,6 @@
-# An interface to the Bittrex REST API.
+# An interface to the Bittrex REST API for Smalltalk (initially Pharo).
 
-The API has been implemented as a Command Pattern, a class per entrypoint.
+The Bittrex API interface is implemented as a Command Pattern, a class per entrypoint.
 
 ## Installation
 
@@ -16,13 +16,14 @@ A Baseline has not yet been defined, so evaluate... <p>
    BittrexAPI installNeoJSON
 ```
 
-## Usage - public APIs
+## Usage - public apis
 Try the BittrexPublicAPIs first since they work out of the box without any configuration at Bittrex.com, e.g...<p>
 ```smalltalk
    BittrexGetMarkets new getAll inspect
 ```
 ![a BittrexMarket](https://github.com/Traadh/bittrex/blob/master/doc/BittrexMarket-inspector.png?raw=true)
 
+## Usage - private apis
 To try the BittrexPrivateAPIs, at the Bittrex.com > Settings > API Keys,
 create a new paired ApiKey and ApiSecret. <br>
   e.g. ApiKey 3af36a54c1ac33ac35910a80fb5a2074 <br>
