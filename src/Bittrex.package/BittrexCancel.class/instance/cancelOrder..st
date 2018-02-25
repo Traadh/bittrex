@@ -5,5 +5,5 @@ cancelOrder: aBittrexUuid
 	self path: 'api/v1.1/market/cancel'.
 	self queryAt: 'uuid' put: aBittrexUuid orderUuid.
 	self signRequest.
-	^ BittrexResponse ignoreResultParse: self get
+	^ (BittrexResponse ignoreResultParse: self get) result
 	"Maybe return true if the order is cancelled, false with message if the order fails to cancel"

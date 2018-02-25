@@ -10,7 +10,7 @@ configureApiKey: apiKey secretFromFile: secretFileName
 	fp := FilePluginPrims new.
 	[	fileId := fp open: secretFileName writable: false.
 		"Search for subpart of apiKey"
-		matchKey := (':' , (apiKey first: 6) , ':') asByteArray.
+		matchKey := ('(' , (apiKey first: 6) , ')') asByteArray.
 		matchIndex := 1.
 		[	(fp atEnd: fileId) ifTrue: [ self error: 'Failed to find api key in ' , secretFileName ]. 	
 			fp read: fileId into: inByte startingAt: 1 count: 1. 
