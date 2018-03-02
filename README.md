@@ -16,7 +16,17 @@ A Baseline has not yet been defined, so evaluate... <p>
    BittrexAPI installNeoJSON
 ```
 <p>
-4. Run BittrexLibsodiumTests.
+4. Install libsodium
+   
+On Ubuntu 16.04...
+```bash
+$ sudo apt-get install libsodium18
+```
+
+On Windows...  
+from https://download.libsodium.org/libsodium/releases/ get the latest .mingw.tar.gz then copy the two files from **libsodium-win32\bin** into the Pharo directory (although you could leave them anywhere and just reference them in the win32modulename [note: you need to \ the windows slashes inside a string]). The other file needed is libgcc_s_dw2-1.dll.
+   
+5. Confirm all BittrexLibsodiumTests work.
 
 Okay, done! You should be right to go.
 
